@@ -1,7 +1,7 @@
 use std::fs;
 use regex::Regex;
 
-const INPUT_PATH: &str = "input.txt";
+const INPUT_PATH: &str = "../input.txt";
 const REGEX_EXTRACT_NUMBER: &str = r"(?<number>\d+)";
 fn main() {
 
